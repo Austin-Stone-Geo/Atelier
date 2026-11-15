@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%233b5bdb'/><path d='M9 23 16 8l7 15M11.5 18h9' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden>
+    <a href="#/" class="brand">Atelier</a>
+    <nav class="crumbs" id="crumbs"></nav>
+    <div class="spacer"></div>
+    <a href="#/account" id="me-link" class="muted"></a>
+  </header>
+  <main id="app"><p class="muted pad">Loading…</p></main>
+  <div id="toast" class="toast" hidden></div>
+  <script src="/vendor/marked.js"></script>
+  <script src="/vendor/purify.js"></script>
+  <script src="/diff.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
